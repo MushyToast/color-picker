@@ -14,7 +14,7 @@ $('document').ready(function(){
             } else if (blue == 0) {
                 blue = 0
             }
-            bg.style.backgroundColor = 'rgb(' + red + " " + green + " " + blue + ")"
+            bg.style.backgroundColor = 'rgb(' + red.toString() + " " + green.toString() + " " + blue.toString() + ")"
         },
         2)
 

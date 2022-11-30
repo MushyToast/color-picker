@@ -1,1 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+#logo {
+    width: 160px;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+}
 
+#header {
+    font-family: Roboto;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 24px;
+}
+
+#header2 {
+    font-family: 'Open Sans';
+    font-size: 50px;
+    text-align: center;
+    padding-left: 24px;
+}
+
+.hstuff {
+    display: inline-block;
+}
+
+#parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#child {
+    display: inline-block;
+}

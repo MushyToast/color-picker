@@ -9,11 +9,12 @@ $('document').ready(function(){
             header.innerHTML = etext
             img.src = 'assets/img/DrPicLogo.png'
             header.id = 'header'
+            document.title = etext
         } else if (header.innerHTML == etext) {
             header.innerHTML = htext
             img.src = 'assets/img/hebrewlogo.png'
             header.id = 'header2'
-
+            document.title = htext
         }
     }, 2000);
 

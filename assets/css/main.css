@@ -42,3 +42,11 @@ body {
 .colorpicker {
     background-color: grey;
 }
+
+.v1 {
+    padding-right: 5px;
+}
+
+.alltext {
+    font-family: Roboto;
+}

@@ -28,18 +28,18 @@
     <br>
     <br>
     <div id="parent" class="colorpicker">
-        <h3>RGB</h3>
+        <h3 class="v1 alltext">RGB</h3>
         <div id="child">
-            <h4>Red</h4>
-            <input type="number" id="red" maxlength="3">
+            <h4 class="alltext">Red</h4>
+            <input type="number" id="red" maxlength="3" onkeydown="return event.keyCode !== 69">
         </div>
         <div id="child">
-            <h4>Green</h4>
-            <input type="number" id="green" maxlength="3">
+            <h4 class="alltext">Green</h4>
+            <input type="number" id="green" maxlength="3" onkeydown="return event.keyCode !== 69">
         </div>
         <div id="child">
-            <h4>Blue</h4>
-            <input type="number" id="blue" maxlength="3">
+            <h4 class="alltext">Blue</h4>
+            <input type="number" id="blue" maxlength="3" onkeydown="return event.keyCode !== 69">
         </div>
     </div>
 

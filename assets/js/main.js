@@ -7,14 +7,14 @@ $('document').ready(function(){
         const dred = 0
         const dgreen = 0
         const dblue = 0
-            if (red == null) {
+            if (red == "") {
                 red = 0
-            } else if (green == null) {
+            } else if (green == "") {
                 green = 0
-            } else if (blue == null) {
+            } else if (blue == "") {
                 blue = 0
             }
-            bg.style.backgroundColor = 'rgb(' + red.toString() + " " + green.toString() + " " + blue.toString() + ")"
+            bg.style.backgroundColor = "rgb(222, 222, 14)"
         },
         2)
 

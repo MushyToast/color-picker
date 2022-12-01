@@ -14,7 +14,10 @@ $('document').ready(function(){
             } else if (blue == "") {
                 blue = 0
             }
-            bg.style.backgroundColor = "rgb(222, 222, 14)"
+        console.info(red)
+        console.info(green)
+        console.info(blue)
+        bg.style.backgroundColor = "rgb(222, 222, 14)"
         },
         2)
 

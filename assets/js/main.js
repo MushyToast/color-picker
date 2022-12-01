@@ -7,11 +7,11 @@ $('document').ready(function(){
         const dred = 0
         const dgreen = 0
         const dblue = 0
-            if (red == "") {
+            if (typeof red === "undefined") {
                 red = 0
-            } else if (green == "") {
+            } else if (typeof green == "undefined") {
                 green = 0
-            } else if (blue == "") {
+            } else if (typeof blue == "undefined") {
                 blue = 0
             }
         console.info(red)

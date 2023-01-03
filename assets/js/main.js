@@ -1,24 +1,15 @@
-$('document').ready(function(){
-    setInterval(function goofy(){
-        var red = document.getElementsByClassName('red').value
-        var green = document.getElementsByClassName('green').value
-        var blue = document.getElementsByClassName('blue').value
-        const bg = document.getElementById('boody')
-        const dred = 0
-        const dgreen = 0
-        const dblue = 0
-            if (typeof red === "undefined") {
-                red = 0
-            } else if (typeof green == "undefined") {
-                green = 0
-            } else if (typeof blue == "undefined") {
-                blue = 0
-            }
-        console.info(red)
-        console.info(green)
-        console.info(blue)
-        bg.style.backgroundColor = "rgb(222, 222, 14)"
-        },
-        2)
-
-})
+function getRGBValues() {
+    // Get the RGB values from the input boxes
+    const red = document.getElementById("red").value;
+    const green = document.getElementById("green").value;
+    const blue = document.getElementById("blue").value;
+  
+    // Set the body background color to the RGB values
+    if (red && green && blue) {
+      document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+    } else {
+      document.body.style.backgroundColor = "white";
+    }
+  }
+  
+  setInterval(getRGBValues, 2); // Get RGB values every 2 seconds
